@@ -13,16 +13,14 @@ let theme = createTheme({
       main: '#000000'
     }
   },
-  typography: {
-    h1: {
-      fontSize:85
-    },
-    h3: {
-      fontSize:"2.5rem"
-    }
-  },
     typography: {
-      fontFamily: "'Ubuntu', sans-serif"
+      fontFamily: "'Ubuntu', sans-serif",
+      h1: {
+        fontSize:75
+      },
+      h3: {
+        fontSize:"2.5rem"
+      }
     }
 });
 

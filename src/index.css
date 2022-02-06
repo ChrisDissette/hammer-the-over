@@ -13,9 +13,31 @@ code {
     monospace;
 }
 
+.header-img {
+  width: 5rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .header-img {
+    width: 3rem;
+  }
+}
+
+.hero-img {
+  width: 80%;
+  height: auto;
+}
+
+/* .banner-container{
+  max-width: 50%;
+  overflow: visible;
+} */
+
 .shark-image {
   display: block;
-  width: 80%;
+  width: 90%;
   border-radius:10%;
 }
 

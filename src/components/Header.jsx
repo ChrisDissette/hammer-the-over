@@ -48,8 +48,8 @@ const Header = (props) => {
                 <ElevationScroll {...props} className={classes.appStyle}>
                     <AppBar className={classes.appStyle}>
                         <Toolbar className={classes.toolStyle} sx={{display:'flex', justifyContent:'space-around', width:'100%', height:'100%'}}>
-                            <img src={ProfilePic} style={{width:'5%', height:'auto', borderRadius:'50%'}} />
-                            <ButtonGroup size='large' variant='text'>
+                            <img className='header-img' src={ProfilePic} />
+                            <ButtonGroup variant='text'>
                                 <Button className={classes.buttonTextStyle}>Home</Button>
                                 <Button className={classes.buttonTextStyle}>Community</Button>
                                 <Button className={classes.buttonTextStyle}>Roadmap</Button>

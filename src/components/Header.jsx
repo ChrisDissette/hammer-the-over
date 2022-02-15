@@ -18,47 +18,28 @@ const useStyles = makeStyles({
         fontWeight: 'bold',
         fontSize: 20
     },
-    appStyle: {
-        height: 125,
-    },
+    
 });
-
-
-function ElevationScroll(props) {
-    const { children } = props;
-
-    const trigger = useScrollTrigger({
-        disableHysteresis: true,
-        threshold: 0,
-    });
-
-    return React.cloneElement(children, {
-        elevation: trigger ? 2 : 0,
-        color: trigger ? 'transparent' : 'secondary',
-    });
-}
-
 
 
 const Header = (props) => {
     const classes = useStyles();
     return(
         <nav>
-            <Box sx={{height:50}}>
-                <ElevationScroll {...props} className={classes.appStyle}>
-                    <AppBar className={classes.appStyle}>
-                        <Toolbar className={classes.toolStyle} sx={{display:'flex', justifyContent:'space-around', width:'100%', height:'100%'}}>
-                            <img className='header-img' src={ProfilePic} />
-                            <ButtonGroup variant='text'>
-                                <Button className={classes.buttonTextStyle}>Home</Button>
-                                <Button className={classes.buttonTextStyle}>Community</Button>
-                                <Button className={classes.buttonTextStyle}>Roadmap</Button>
-                                <Button className={classes.buttonTextStyle}>Token</Button>
-                                <Button className={classes.buttonTextStyle}>Team</Button>
-                            </ButtonGroup>
-                        </Toolbar>
-                    </AppBar>
-                </ElevationScroll>
+            <Box id='top-page' sx={{ flexGrow: 1 }} width='100%'>
+                <AppBar position="static" elevation={0} sx={{width:'100%'}}>
+                    <Toolbar sx={{height:86}} >
+                        <Typography variant="h2" component="div" sx={{ flexGrow: 1 }}>
+                            <Button color="inherit" sx={{fontSize:20, fontWeight:'bold'}} onClick={() => navigate('/')}>CD</Button>
+                        </Typography>
+                        <ButtonGroup  size='medium' variant='text'>
+                            <Button color="inherit" onClick={() => navigate('/')}>Home</Button>
+                            <Button color="inherit" onClick={() => navigate('/about')}>Story</Button>
+                            <Button color="inherit" onClick={() => navigate('/work')}>Roadmap</Button>
+                            <Button color="inherit" onClick={() => navigate('/contact')}>Team</Button>
+                        </ButtonGroup>
+                    </Toolbar>
+                </AppBar>
             </Box>
         </nav>
     );

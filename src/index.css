@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: 	#303030;
 }
 
 code {
@@ -23,6 +23,19 @@ code {
   .header-img {
     width: 3rem;
   }
+}
+
+.app-style {
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+.hero-background {
+  background-image: linear-gradient(160deg, #0093E9, #80D0C7)
 }
 
 .hero-img {

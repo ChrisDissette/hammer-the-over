@@ -7,14 +7,14 @@ import Home from './views/Home'
 let theme = createTheme({
   palette: {
     primary: {
-      main: '#1DB614',
+      main: '#000000',
     },
     secondary: {
       main: '#000000'
     }
   },
     typography: {
-      fontFamily: "'Ubuntu', sans-serif",
+      fontFamily: "'Fuzzy Bubbles', cursive",
       h1: {
         fontSize:75
       },

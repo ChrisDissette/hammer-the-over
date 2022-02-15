@@ -6,6 +6,7 @@ import Community from '../components/Community'
 import ImgCarousel from '../components/ImgCarousel'
 import Banner from '../components/Banner'
 import Profile from '../components/Profile'
+import NewHero from '../components/NewHero'
 
 const useStyles = makeStyles({
     backgroundStyle: {
@@ -20,10 +21,8 @@ const Home = () => {
     return (
         <div>
             <Box>
-                <Box className={classes.backgroundStyle}>
                     <Header />
-                    <Hero />
-                </Box>
+                    <NewHero />
                     <ImgCarousel />
                     <Community />
                     <Banner />

@@ -22,7 +22,7 @@ const Hero = () => {
     const classes = useStyles();
 
     return( 
-        <Box minHeight='100vh' paddingTop={{md:15,lg:20}} bgcolor='black' >
+        <Box className='hero-background' minHeight='100vh' paddingTop={{md:15,lg:20}} >
             <Box display='flex' width={{xs:400, sm:500, md:700, lg:1100}} minHeight={400} margin='0 auto' flexDirection={{xs: 'column-reverse', sm:'column-reverse', md:'column-reverse', lg:'row'}}>
                 <Box width={{xs:400 , sm:500, md:700, lg:650}}>
                     <Typography 

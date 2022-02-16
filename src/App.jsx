@@ -7,19 +7,22 @@ import Home from './views/Home'
 let theme = createTheme({
   palette: {
     primary: {
-      main: '#000000',
+      main: '#06bcfb',
     },
     secondary: {
       main: '#000000'
     }
   },
     typography: {
-      fontFamily: "'Fuzzy Bubbles', cursive",
+      fontFamily: "'Comfortaa', cursive",
       h1: {
+        fontSize:100
+      },
+      h2: {
         fontSize:75
       },
-      h3: {
-        fontSize:"2.5rem"
+      h4: {
+        fontSize: 50      
       }
     }
 });

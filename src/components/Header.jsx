@@ -12,6 +12,9 @@ import PropTypes from 'prop-types';
 import React from 'react'
 import ProfilePic from '../assets/profileshark.jpg'
 import { makeStyles } from '@mui/styles';
+import DiscordIcon from '../assets/discord.png'
+import TwitterIcon from '../assets/twitter.png'
+import Profile from '../assets/profileshark.jpg'
 
 const useStyles = makeStyles({
     buttonTextStyle: {
@@ -25,22 +28,21 @@ const useStyles = makeStyles({
 const Header = (props) => {
     const classes = useStyles();
     return(
-        <nav>
-            <Box id='top-page' sx={{ flexGrow: 1 }} width='100%'>
-                <AppBar position="static" elevation={0} sx={{width:'100%'}}>
-                    <Toolbar sx={{height:86}} >
-                        <Typography variant="h2" component="div" sx={{ flexGrow: 1 }}>
-                            <Button color="inherit" sx={{fontSize:20, fontWeight:'bold'}} onClick={() => navigate('/')}>CD</Button>
-                        </Typography>
-                        <ButtonGroup  size='medium' variant='text'>
-                            <Button color="inherit" onClick={() => navigate('/')}>Home</Button>
-                            <Button color="inherit" onClick={() => navigate('/about')}>Story</Button>
-                            <Button color="inherit" onClick={() => navigate('/work')}>Roadmap</Button>
-                            <Button color="inherit" onClick={() => navigate('/contact')}>Team</Button>
-                        </ButtonGroup>
-                    </Toolbar>
-                </AppBar>
-            </Box>
+        <nav className='navbar'>
+            
+            <div className="link-box">
+                <p className="links">Home</p>
+                <p className="links">Roadmap</p>
+                <p className="links">Token</p>
+                <p className="links">Team</p>
+                <p className="links">Staking</p>
+            </div>
+            <div className="icon-box">
+                <img src={DiscordIcon} className='social-icon' alt="Discord Icon" />
+                <img src={TwitterIcon} className='social-icon' alt="Discord Icon" />
+                <img src={Profile} className='social-icon' id='sharkProfile' alt="Discord Icon" />
+
+            </div>
         </nav>
     );
 };

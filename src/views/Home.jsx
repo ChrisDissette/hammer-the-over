@@ -7,26 +7,20 @@ import ImgCarousel from '../components/ImgCarousel'
 import Banner from '../components/Banner'
 import Profile from '../components/Profile'
 import NewHero from '../components/NewHero'
+import Chart from '../components/Chart'
 
-const useStyles = makeStyles({
-    backgroundStyle: {
-        height:'100vh'
-    },
-});
 
 const Home = () => {
-
-    const classes = useStyles();
-
     return (
         <div>
-            <Box>
+            <Box className='everything'>
                     <Header />
                     <NewHero />
                     <ImgCarousel />
-                    <Community />
+                    <Chart />
+                    {/* <Community /> */}
                     <Banner />
-                    <Profile />
+                    {/* <Profile /> */}
             </Box>
         </div>
 

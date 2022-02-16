@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: 	#303030;
 }
 
 code {
@@ -13,17 +12,76 @@ code {
     monospace;
 }
 
-.header-img {
+.everything {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+
+.navbar {
+  height: 6rem;
+  display: flex;
+  /* background-color: #7cffcb;
+  background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%); */
+
+}
+
+.link-box {
+  height: 6rem;
+  width: 80%;
+  padding-right: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.links {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+.links:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.icon-box {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-icon {
+  height: 60px;
+  width: 60px;
+}
+
+#sharkProfile {
+  border-radius: 50%;;
+}
+
+
+.shark-chart {
+  height: auto;
+  width: 60%;
+}
+
+
+
+/* .header-img {
   width: 5rem;
   height: auto;
   border-radius: 50%;
-}
+} */
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   .header-img {
     width: 3rem;
   }
-}
+} */
 
 .app-style {
   background: #2980B9;  /* fallback for old browsers */

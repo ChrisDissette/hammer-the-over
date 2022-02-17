@@ -31,17 +31,22 @@ const Header = (props) => {
         <nav className='navbar'>
             
             <div className="link-box">
-                <p className="links">Home</p>
-                <p className="links">Roadmap</p>
-                <p className="links">Token</p>
-                <p className="links">Team</p>
-                <p className="links">Staking</p>
+                <a className="links">Home</a>
+                <a className="links">Roadmap </a>
+                <a className="links">Token</a>
+                <a className="links">Team</a>
+                <a className="links">Staking</a>
             </div>
             <div className="icon-box">
-                <img src={DiscordIcon} className='social-icon' alt="Discord Icon" />
-                <img src={TwitterIcon} className='social-icon' alt="Discord Icon" />
-                <img src={Profile} className='social-icon' id='sharkProfile' alt="Discord Icon" />
-
+                <a href="https://discord.com/invite/fQtARAKgKM" target='_blank'>
+                    <img src={DiscordIcon} className='social-icon' alt="Discord Icon" />
+                </a>
+                <a href="https://twitter.com/hodlhammerheads" target='_blank'>
+                    <img src={TwitterIcon} className='social-icon' alt="Discord Icon" />
+                </a>
+                <a href="">
+                    <img src={Profile} className='social-icon' id='sharkProfile' alt="Discord Icon" />
+                </a>
             </div>
         </nav>
     );

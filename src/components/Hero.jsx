@@ -45,22 +45,16 @@ const Hero = () => {
                     </Typography>
                     </Box>
                     
-                    {/* <Box width='75%' display='flex' justifyContent='space-around' marginTop={4}>
+                    <Box width='75%' display='flex' justifyContent='space-around' marginTop={4}>
                         <Button 
-                            className={classes.buttonStyle} 
-                            sx={{fontWeight:'bold', borderRadius:16}} 
-                            variant="contained"
                         >
                         Follow us on Twitter
                     </Button>
                         <Button 
-                            className={classes.buttonStyle} 
-                            sx={{fontWeight:'bold', borderRadius:16}} 
-                            variant="outlined"
                         >
                             Join our Discord
                         </Button>
-                    </Box> */}
+                    </Box>
                 <Box width={{lg:500}} minHeight={400} display='flex' alignItems='center' justifyContent='center'>
                     <img className='hero-img' src={HeroImage} /> 
                 </Box>

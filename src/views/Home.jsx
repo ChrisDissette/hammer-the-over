@@ -8,6 +8,9 @@ import Banner from '../components/Banner'
 import Profile from '../components/Profile'
 import NewHero from '../components/NewHero'
 import Chart from '../components/Chart'
+import Roadmap from '../components/Roadmap';
+import Team from '../components/Team'
+import Footer from '../components/Footer'
 
 
 const Home = () => {
@@ -17,10 +20,11 @@ const Home = () => {
                     <Header />
                     <NewHero />
                     <ImgCarousel />
-                    <Chart />
-                    {/* <Community /> */}
+                    <Roadmap />
                     <Banner />
-                    {/* <Profile /> */}
+                    <Chart />
+                    <Team />
+                    <Footer />
             </Box>
         </div>
 

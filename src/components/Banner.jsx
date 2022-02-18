@@ -9,7 +9,9 @@ const Banner = () => {
             'center' flexDirection='column'>
                 <Typography variant='h3' color='white'>JOIN ON OUR DISCORD</Typography>
                 <Typography variant='h3' color='white' mb={5}>Hammer the Over</Typography>
-                <Button variant='contained' sx={{borderRadius:'25px', width:250, height:50, color:'white', fontWeight:'bold'}}>JOIN NOW</Button>
+                <a href="https://discord.com/invite/fQtARAKgKM" target='_blank'>
+                    <Button variant='contained' sx={{borderRadius:'25px', width:250, height:50, color:'white', fontWeight:'bold'}}>JOIN NOW</Button>
+                </a>
             </Box>
         </div>
         ) 

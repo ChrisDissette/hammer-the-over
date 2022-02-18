@@ -1,11 +1,11 @@
 import '../stylesheets/carousel.css'
 
 import SharkOne from '../assets/profileshark.jpg'
-import SharkTwo from '../assets/shark1.jpg'
-import SharkThree from '../assets/shark2.jpg'
-import SharkFour from '../assets/shark3.jpg'
-import SharkFive from '../assets/shark4.jpg'
-import SharkSix from '../assets/shark5.jpg'
+import SharkTwo from '../assets/57.png'
+import SharkThree from '../assets/335.png'
+import SharkFour from '../assets/chrisD.png'
+import SharkFive from '../assets/john.png'
+import SharkSix from '../assets/chrisA.png'
 
 import Box from '@mui/material/Box';
 

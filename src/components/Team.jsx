@@ -1,40 +1,62 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import BlakePhoto from '../assets/shark1.jpg'
-import RyanPhoto from '../assets/shark2.jpg'
+import BlakePhoto from '../assets/blake.png'
+import RyanPhoto from '../assets/ryan.png'
+import ChrisAPhoto from '../assets/chrisA.png'
+import ChrisDPhoto from '../assets/chrisD.png'
+import JohnPhoto from '../assets/john.png'
 
 const Team = () => {
 
     const teamMembers = [
         {
-            'name':'Blake',
-            'picture':{BlakePhoto},
-            'title': 'Co Founder',
+            'name':'King Hammer',
+            'picture':BlakePhoto,
+            'title': 'Founder/Dev',
         },
         {
-            'name':'Ryan',
-            'picture':{RyanPhoto},
-            'title': 'Founder',
-        }
+            'name':'Hungry Hammerhead',
+            'picture':RyanPhoto,
+            'title': 'Marketing',
+        },
+
+        {
+            'name':'Chief Financial Hammer',
+            'picture':ChrisAPhoto,
+            'title': 'Financial Manager',
+        },
+        {
+            'name':'Hammertech Shark',
+            'picture':ChrisDPhoto,
+            'title': 'Web Dev',
+        },
+        {
+            'name':'Whale Shark',
+            'picture':JohnPhoto,
+            'title': 'Web Developer',
+        },
     ]
 
   return (
-      <>
-    <Box width='70%' height='100vh' display='flex' alignItems='center' flexDirection='column' pt={10} margin='0 auto'>
-        <Typography variant='h1' color='white' gutterBottom>Meet the Team</Typography>
-        <Typography variant='h5' color='black' textAlign='center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
-    </Box>
-    <Box>
-        {/* {
-            teamMembers.map(person => (
-                    
-                    <h3>{person.title}</h3>
-                
-            ))
-        } */}
-    </Box>
-    </>
-  )
+    <Box minHeight='100vh' id='team'>
+        <Box width='70%' display='flex' alignItems='center' flexDirection='column' pt={10} margin='0 auto'>
+            <Typography variant='h1' color='white' textAlign='center' gutterBottom>Meet the Team</Typography>
+            {/* <Typography variant='h5' color='black' textAlign='center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography> */}
+        </Box>
+        <Box display='flex' marginTop={10} width='100%' alignItems='center' justifyContent='center' flexDirection={{xs:'column', sm:'column', md:'row', lg: 'row'}}>
+            {
+                teamMembers.map((item, i) => {
+                    return <div key={i} className='profile-card'>
+                        <img className='team-img' src={item.picture}/>
+                        <Typography variant='h5' textAlign='center' color='white' sx={{fontWeight:'bold'}}>{item.name}</Typography>
+                        <Typography variant='body2' textAlign='center'>{item.title}</Typography>
+                        
+                    </div>
+                })
+            }
+        </Box>
+        </Box>
+)
 }
 
 export default Team

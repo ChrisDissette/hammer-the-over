@@ -34,10 +34,6 @@ function App() {
     <ThemeProvider theme={theme}>
       <Router>
         <Home path = '/' />
-        {/* <Community path='/community' />
-        <Roadmap path='/roadmap' />
-        <Token path='/token' />
-        <Team path='/team' /> */}
       </Router>
     </ThemeProvider>
   );

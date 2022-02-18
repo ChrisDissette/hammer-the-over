@@ -2,9 +2,40 @@ import Box from '@mui/material/Box';
 
 const Roadmap = () => {
   return (
-    <Box height='100vh' width='100%' display='flex' alignItems='center' justifyContent='center' flexDirection='column'>
-        <h1>hello from Roadmap</h1>
-    </Box>
+    <div class="container">
+  <div class="timeline">
+    <ul>
+      <li>
+        <div class="timeline-content">
+          <h3 class="date">20th may, 2010</h3>
+          <h1>Heading 1</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-content">
+          <h3 class="date">20th may, 2010</h3>
+          <h1>Heading 2</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-content">
+          <h3 class="date">20th may, 2010</h3>
+          <h1>Heading 3</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-content">
+          <h3 class="date">20th may, 2010</h3>
+          <h1>Heading 4</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
   )
 }
 

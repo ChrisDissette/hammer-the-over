@@ -29,13 +29,12 @@ const Header = (props) => {
     const classes = useStyles();
     return(
         <nav className='navbar'>
-            
             <div className="link-box">
                 <a className="links">Home</a>
-                <a className="links">Roadmap </a>
-                <a className="links">Token</a>
-                <a className="links">Team</a>
-                <a className="links">Staking</a>
+                <a href='#roadmap' className="links">Roadmap </a>
+                <a href='#token' className="links">Token</a>
+                <a href='#team' className="links">Team</a>
+                <a href='#staking' className="links">Staking</a>
             </div>
             <div className="icon-box">
                 <a href="https://discord.com/invite/fQtARAKgKM" target='_blank'>

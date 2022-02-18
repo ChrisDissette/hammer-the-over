@@ -16,7 +16,7 @@ const Roadmap = () => {
         <div class="timeline-content">
           <h3 class="date">Q2</h3>
           <h1>Phase 2: Mint and Whirlpool</h1>
-          <p>The second phase will be the mint and whirlpool (liquidity pool) setup. There will be a total of 7,777 Hammerheads available at 1 SOL each. We will start the whirlpool with 2,777 SOL (roughly 300,000 $USDC) and 100,000 $CHUM giving our utility token a value of 3 $USDC. At this point, hammerheads can be staked for 2 $CHUMM per day.</p>
+          <p>The second phase will be the mint and whirlpool (liquidity pool) setup. There will be a total of 7,777 Hammerheads available at 1 SOL each. We will start the whirlpool with 2,777 SOL (roughly 300,000 $USDC) and 100,000 $CHUMM giving our utility token a value of 3 $USDC. At this point, hammerheads can be staked for 2 $CHUMM per day.</p>
         </div>
       </li>
       <li>

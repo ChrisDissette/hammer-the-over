@@ -1,8 +1,13 @@
 import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
 const Roadmap = () => {
   return (
+    <>
+    <Typography id='roadmap' variant='h1' textAlign='center' color='white' sx={{marginTop:7}}>Roadmap</Typography>
+
     <div class="container">
+
   <div class="timeline">
     <ul>
       <li>
@@ -36,6 +41,7 @@ const Roadmap = () => {
     </ul>
   </div>
 </div>
+</>
   )
 }
 

@@ -21,6 +21,7 @@ code {
 .everything {
   background-color: #000000;
   background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+  width: 100vw;
 }
 
 .navbar {
@@ -31,7 +32,7 @@ code {
 .link-box {
   height: 6rem;
   width: 80%;
-  padding-right: 5rem;
+  /* padding-right: 5rem; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -67,9 +68,9 @@ code {
   border-radius: 50%;;
 }
 
-.typewriter-container {
+/* .typewriter-container {
   display: inline-block;
-}
+} */
 
 .typed-out {
   overflow: hidden;
@@ -77,6 +78,12 @@ code {
   white-space: nowrap;
   width: 0;
   animation: typing 3s forwards;
+}
+
+@media (max-width: 600px) {
+  .typed-out {
+    border-right: none;
+  }
 }
 
 @keyframes typing {
@@ -155,7 +162,8 @@ a {
   width: auto;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 1100px) {
   .shark-chart{
     height: 280px;
     width: auto;
@@ -163,9 +171,9 @@ a {
   }
 }
 
-@media (max-width: 1100px) {
-  .shark-chart{
-    height: 280px;
+@media (max-width: 600px) {
+  .shark-gif{
+    height: 400px;
     width: auto;
     margin-bottom: 1rem;
   }
@@ -187,13 +195,13 @@ a {
   -webkit-transition: border-radius 1s ease-in-out;
 }
 
-.profile-card:hover {
+/* .profile-card:hover {
   transform: scale(1.1);
   cursor: pointer;
   background-color: #7f53ac;
   background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
   -webkit-transition: transform 2s ease-in-out;
-}
+} */
 
 
 .container {

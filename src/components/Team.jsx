@@ -33,7 +33,7 @@ const Team = () => {
         {
             'name':'Whale Shark',
             'picture':JohnPhoto,
-            'title': 'Web Developer',
+            'title': 'Investor',
         },
     ]
 
@@ -41,7 +41,6 @@ const Team = () => {
     <Box minHeight='100vh' id='team'>
         <Box width='70%' display='flex' alignItems='center' flexDirection='column' pt={10} margin='0 auto'>
             <Typography variant='h1' color='white' textAlign='center' gutterBottom>Meet the Team</Typography>
-            {/* <Typography variant='h5' color='black' textAlign='center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography> */}
         </Box>
         <Box display='flex' marginTop={10} width='100%' alignItems='center' justifyContent='center' flexDirection={{xs:'column', sm:'column', md:'row', lg: 'row'}}>
             {

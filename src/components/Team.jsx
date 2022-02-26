@@ -42,14 +42,13 @@ const Team = () => {
         <Box width='70%' display='flex' alignItems='center' flexDirection='column' pt={10} margin='0 auto'>
             <Typography variant='h1' color='white' textAlign='center' gutterBottom>Meet the Team</Typography>
         </Box>
-        <Box display='flex' marginTop={10} width='100%' alignItems='center' justifyContent='center' flexDirection={{xs:'column', sm:'column', md:'row', lg: 'row'}}>
+        <Box display='flex' marginTop={10} width='100%' alignItems='center' justifyContent='center' flexDirection={{xs:'column', sm:'column', md:'column', lg: 'row'}}>
             {
                 teamMembers.map((item, i) => {
                     return <div key={i} className='profile-card'>
                         <img className='team-img' src={item.picture}/>
                         <Typography variant='h5' textAlign='center' color='white' sx={{fontWeight:'bold'}}>{item.name}</Typography>
                         <Typography variant='body2' textAlign='center'>{item.title}</Typography>
-                        
                     </div>
                 })
             }

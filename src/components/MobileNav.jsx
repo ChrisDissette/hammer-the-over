@@ -21,7 +21,7 @@ const MobileNav = () => {
     setAnchorEl(null);
   };
   return (
-    <Box height='5rem' display='flex'>
+    <Box height='5rem' display='flex' pt={3}>
         <Box width='30vw' display='flex' alignItems='center' justifyContent='center'>
             <IconButton>
                 <MenuIcon id="basic-button"

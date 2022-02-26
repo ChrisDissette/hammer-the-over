@@ -21,14 +21,14 @@ const Roadmap = () => {
         <div class="timeline-content">
           <h3 class="date">Q2</h3>
           <h1>Phase 2: Mint and Whirlpool</h1>
-          <p>The second phase will be the mint and whirlpool (liquidity pool) setup. There will be a total of 7,777 Hammerheads available at 1 SOL each. We will start the whirlpool with 2,777 SOL (roughly 300,000 $USDC) and 100,000 $CHUMM giving our utility token a value of 3 $USDC. At this point, hammerheads can be staked for 2 $CHUMM per day.</p>
+          <p>The second phase will be the mint and liquidity pool. There will be a total of 2,500 Hammerheads available at 1 SOL each. We will start the LP with 75,000 $USDC and 25,000 $CHUM, giving our utility token a value of 3 $USDC. At this point, hammerheads can be staked for 2 $CHUMM/Day.</p>
         </div>
       </li>
       <li>
         <div class="timeline-content">
           <h3 class="date">Q3</h3>
           <h1>Phase 3: Breeding and Burning</h1>
-          <p>The third phase of the project will be the creation of Hammerpups which will yield 7 $CHUMM per day. There will be a total of 2,000 hammerpups and you will need to burn two Hammerheads to get one.</p>
+          <p>The third phase of the project will be the creation of Hammerpups which will yield 5 $CHUMM/Day. You will need to burn 2 Hammerheads to get a pup. 500 available. This will reduce the total supply to 1,500 hammerheads.</p>
         </div>
       </li>
       <li>

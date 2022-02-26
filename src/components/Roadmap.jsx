@@ -35,7 +35,19 @@ const Roadmap = () => {
         <div class="timeline-content">
           <h3 class="date">Q4</h3>
           <h1>Phase 4: More Utility</h1>
-          <p>The fourth phase of the project will be announced after the mint; however, it is in the works.</p>
+          <p>The 4th phase involves mutations. We will release 500 radioactive $CHUMM tokens and you will have to burn 100 $CHUMM to get one. It’s risky business feeding the glowing chum to your hammerhead, but the results could be worth it…. One of two things will happen….
+          <br />
+          <br />
+
+          The most likely outcome? Your hammerhead’s body rejects the radioactive $CHUMM turning him into the undead scourge. The undead can’t survive without constant feeding so this guy will yield twice as much $CHUMM/Day as his living counterpart.
+          <br />
+          <br />
+          HOWEVER…..
+          <br />
+          <br />
+          There is a 10% chance that your hammerhead will start producing microbots, making them the ultimate APEX PREDATOR. These new hammerbots will yield a WHOPPING 10 $CHUMM/Day. Twice as much as any other hammerhead generation. 
+
+          </p>
         </div>
       </li>
     </ul>

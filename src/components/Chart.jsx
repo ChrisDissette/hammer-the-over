@@ -3,13 +3,14 @@ import Box from '@mui/material/Box';
 import ProfileGif from '../assets/hammergif.gif'
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import NewerChart from '../assets/newerchart.png'
 
 const Chart = () => {
     return (
         <div id='token'>
             <Typography variant='h1' textAlign='center' color='primary.main' sx={{mt:10}}>Tokenomics</Typography>
             <Box display='flex' alignItems='center' justifyContent='space-around' flexDirection={{xs:'column', sm:'column', md:'row', lg:'row'}} minHeight='90vh' width='100%'>
-                <img className='shark-chart' src={NewChart} alt="" />
+                <img className='shark-chart' src={NewerChart} alt="" />
                 <img className='shark-gif' src={ProfileGif} />
             </Box>
             <Box display='flex' alignItems='center' justifyContent='center' flexDirection='column' marginBottom={10}>

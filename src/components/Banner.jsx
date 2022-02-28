@@ -8,7 +8,7 @@ const Banner = () => {
             <Box className='banner-box' height={500} display='flex' alignItems='center' justifyContent=
             'center' flexDirection='column'>
                 <Typography variant='h3' color='white'>JOIN ON OUR DISCORD</Typography>
-                <Typography variant='h3' color='white' mb={5}>Hammer the Over</Typography>
+                <Typography variant='h3' color='white' mt={2} mb={5}>HODL Hammerheads</Typography>
                 <a href="https://discord.com/invite/fQtARAKgKM" target='_blank'>
                     <Button variant='contained' sx={{borderRadius:'25px', width:250, height:50, color:'white', fontWeight:'bold'}}>JOIN NOW</Button>
                 </a>

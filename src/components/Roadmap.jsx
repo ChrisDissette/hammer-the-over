@@ -20,21 +20,21 @@ const Roadmap = () => {
       <li>
         <div class="timeline-content">
           <h3 class="date">Q2</h3>
-          <h1>Phase 2: Mint and Whirlpool</h1>
-          <p>The second phase will be the mint and liquidity pool. There will be a total of 2,500 Hammerheads available at 1 SOL each. We will start the LP with 75,000 $USDC and 25,000 $CHUM, giving our utility token a value of 3 $USDC. At this point, hammerheads can be staked for 2 $CHUMM/Day.</p>
+          <h1>Phase 2: Mint and Liquidity Pool - April 8th, 2022</h1>
+          <p>The second phase will be the mint and liquidity pool. There will be a total of 1,150 Hammerheads available at 1 SOL each. We will start the LP with 75,000 $USDC and 25,000 $CHUM, giving our utility token a value of 3 $USDC. At this point, hammerheads can be staked for 2 $CHUMM/Day. The LP will be started after breeding of Hammerpups in next phase.</p>
         </div>
       </li>
       <li>
         <div class="timeline-content">
           <h3 class="date">Q3</h3>
-          <h1>Phase 3: Breeding and Burning</h1>
-          <p>The third phase of the project will be the creation of Hammerpups which will yield 5 $CHUMM/Day. You will need to burn 2 Hammerheads to get a pup. 500 available. This will reduce the total supply to 1,500 hammerheads.</p>
+          <h1>Phase 3: Breeding and Burning - End of April 2022</h1>
+          <p>The third phase of the project will be the creation of Hammerpups which will yield 5 $CHUMM/Day. You will need to burn 1 adult Hammerhead and 50 $CHUMM to get a pup. There will be 350 available. This will reduce the total supply to 800 hammerheads.</p>
         </div>
       </li>
       <li>
         <div class="timeline-content">
           <h3 class="date">Q4</h3>
-          <h1>Phase 4: More Utility</h1>
+          <h1>Phase 4: Mutations - End of May 2022</h1>
           <p>The 4th phase involves mutations. We will release 500 radioactive $CHUMM tokens and you will have to burn 100 $CHUMM to get one. It’s risky business feeding the glowing chum to your hammerhead, but the results could be worth it…. One of two things will happen….
           <br />
           <br />

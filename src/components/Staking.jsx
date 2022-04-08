@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 
 const Staking = () => {
   return (
-    <Box className='banner-box' height={300} display='flex' alignItems='center' justifyContent=
+    <Box className='banner-box' height={300} mt={3} display='flex' alignItems='center' justifyContent=
     'center' flexDirection='column' id='staking'>
         <Typography variant='h3' color='white' mb={5}>Staking</Typography>
         <Typography variant='h3' color='white' mb={3}>coming soon...</Typography>

@@ -60,8 +60,8 @@ code {
 }
 
 .social-icon {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
 }
 
 #sharkProfile {
@@ -165,9 +165,10 @@ a {
 
 @media (max-width: 1100px) {
   .shark-chart{
-    height: 280px;
+    height: 320px;
     width: auto;
     margin-bottom: 1rem;
+    /* margin-left: 8rem; */
   }
 }
 
